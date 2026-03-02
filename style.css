@@ -83,14 +83,14 @@ button {
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-  padding: 15px 40px;
-  border-radius: 40px;
+  padding: 20px 50px;   /* Aumentei o padding */
+  border-radius: 50px;  /* Mais arredondado */
   border: none;
   background: white;
   color: black;
   font-weight: bold;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 22px;      /* Aumentei a fonte */
   opacity: 0.9;
   transition: 0.3s ease;
   z-index: 20;
@@ -113,4 +113,5 @@ button {
   opacity: 1;
   transform: translateY(0) scale(1);
   filter: blur(0);
+
 }
